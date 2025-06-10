@@ -1,7 +1,9 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace s31367_kolokwium2.Models.Entities;
 
+[Table("Map")]
 public class Map
 {
     [Key]

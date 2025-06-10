@@ -3,6 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace s31367_kolokwium2.Models.Entities;
 
+[Table("Match")]
 public class Match
 {
     [Key]
